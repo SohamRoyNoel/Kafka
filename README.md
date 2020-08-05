@@ -18,3 +18,8 @@
  - Get All Available topics: ```kafka-topics --zookeeper 127.0.0.1:2181 --list```
  - Get description of Topic: ```kafka-topics --zookeeper 127.0.0.1:2181 --topic First_Topic --describe```
  - Delete a Topic: ``` kafka-topics --zookeeper 127.0.0.1:2181 --topic First_Topic --delete```
+ 
+ #### Producer
+  - Producer help: ```kafka-console-producer```
+  - Get producer Console: ```kafka-console-producer --broker-list 127.0.0.1:9092 --topic First_Topic``` [broker runs on 9092 port]
+  - 
