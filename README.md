@@ -16,8 +16,5 @@
  - Create A Kafka Topic: ***kafka-topics --zookeeper 127.0.0.1:2181 --topic First_Topic --create --partitions 3 --replication-factor 1***<br>
 ***[Remember: replication factor can not ever be greater then the brokers; that means if you start 1 kafka on a cluster, --replication-factor 1 should be >=1]***<br>
  - Get All Available topics: ***kafka-topics --zookeeper 127.0.0.1:2181 --list***<br>
- - Get description of Topic: ***kafka-topics --zookeeper 127.0.0.1:2181 --topic First_Topic --describe***
-| First_Topic | PartitionCount: 3 | ReplicationFactor: 1 | Configs: |
-| --- | --- |
-| Topic: First_Topic | Partition: 1  |  Leader: 0   |    Replicas: 0  |   Isr: 0   |
-| Topic: First_Topic   |   Partition: 2 |   Leader: 0   |    Replicas: 0   |  Isr: 0  |
+ - Get description of Topic: ***kafka-topics --zookeeper 127.0.0.1:2181 --topic First_Topic --describe***<br>
+ - Delete a Topic: ``` kafka-topics --zookeeper 127.0.0.1:2181 --topic First_Topic --delete```
