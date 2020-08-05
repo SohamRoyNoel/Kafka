@@ -11,10 +11,10 @@
   ```
   ## Kafka Commands
   #### Topics
- - Kafka Topic Version: ***kafka-topics --version***; my version is: ***2.5.0 (Commit:66563e712b0b9f84)***<br>
- - Get All Kafka Options: ***kafka-topics***<br>
- - Create A Kafka Topic: ***kafka-topics --zookeeper 127.0.0.1:2181 --topic First_Topic --create --partitions 3 --replication-factor 1***<br>
+ - Kafka Topic Version: ```kafka-topics --version'''; my version is: ```2.5.0 (Commit:66563e712b0b9f84)```
+ - Get All Kafka Options: ```kafka-topics```
+ - Create A Kafka Topic: ```kafka-topics --zookeeper 127.0.0.1:2181 --topic First_Topic --create --partitions 3 --replication-factor 1```
 ***[Remember: replication factor can not ever be greater then the brokers; that means if you start 1 kafka on a cluster, --replication-factor 1 should be >=1]***<br>
- - Get All Available topics: ***kafka-topics --zookeeper 127.0.0.1:2181 --list***<br>
- - Get description of Topic: ***kafka-topics --zookeeper 127.0.0.1:2181 --topic First_Topic --describe***<br>
+ - Get All Available topics: ```kafka-topics --zookeeper 127.0.0.1:2181 --list```
+ - Get description of Topic: ```kafka-topics --zookeeper 127.0.0.1:2181 --topic First_Topic --describe```
  - Delete a Topic: ``` kafka-topics --zookeeper 127.0.0.1:2181 --topic First_Topic --delete```
