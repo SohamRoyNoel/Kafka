@@ -1,4 +1,5 @@
-#<img width="50" height="50" src="https://github.com/SohamRoyNoel/Kafka/blob/master/kafka2.jpg?raw=true"> Kafka
+<img width="100" height="100" src="https://github.com/SohamRoyNoel/Kafka/blob/master/kafka2.jpg?raw=true"> 
+# Kafka
 # Starting Kafka
   - Start Zookeeper
   ```
